@@ -1,5 +1,5 @@
 %define name gnome-backgrounds
-%define version 2.22.0
+%define version 2.23.0
 %define release %mkrel 1
 
 Summary: Background images for the GNOME desktop
@@ -7,11 +7,11 @@ Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: ftp://ftp.gnome.org/pub/GNOME/sources/%name/%{name}-%{version}.tar.bz2
-License: GPL
+License: GPLv2
 Group: Graphical desktop/GNOME
 Url: http://www.gnome.org
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires: perl-XML-Parser
+BuildRequires: intltool
 BuildArch: noarch
 
 %description
