@@ -1,5 +1,5 @@
 %define name gnome-backgrounds
-%define version 2.27.91
+%define version 2.28.0
 %define release %mkrel 1
 
 Summary: Background images for the GNOME desktop
