@@ -25,8 +25,7 @@ This module contains a set of backgrounds packaged with the GNOME desktop.
 %find_lang %{name}
 
 %files -f %{name}.lang
-%doc NEWS README AUTHORS ChangeLog
+%doc NEWS README AUTHORS
 %{_datadir}/gnome-background-properties/
-%dir %{_datadir}/pixmaps/backgrounds
-%{_datadir}/pixmaps/backgrounds/gnome
+%{_datadir}/backgrounds/*
 
