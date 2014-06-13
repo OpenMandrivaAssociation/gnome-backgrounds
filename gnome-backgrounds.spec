@@ -3,7 +3,7 @@
 Summary:	Background images for the GNOME desktop
 Name:		gnome-backgrounds
 Version:	3.6.0
-Release:	5
+Release:	6
 License:	GPLv2
 Group:		Graphical desktop/GNOME
 Url:		http://www.gnome.org
