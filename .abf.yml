@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   gnome-backgrounds-3.6.0.tar.xz: 2ac54dc6157ff9a97facfdb90e90dd237914008f
+sources:
+  gnome-backgrounds-3.14.1.tar.xz: 413abaccc196ba6ecce85f1fd83ec12fc0b994c7
