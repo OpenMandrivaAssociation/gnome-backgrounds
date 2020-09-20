@@ -25,10 +25,9 @@ This module contains a set of backgrounds packaged with the GNOME desktop.
 
 %install
 %meson_install
-%find_lang %{name}
 
-%files -f %{name}.lang
-%doc NEWS README AUTHORS
+%files
+%doc NEWS README.md AUTHORS
 %{_datadir}/gnome-background-properties/
 %{_datadir}/backgrounds/*
 
