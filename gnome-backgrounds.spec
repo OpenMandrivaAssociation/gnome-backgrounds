@@ -2,12 +2,12 @@
 
 Summary:	Background images for the GNOME desktop
 Name:		gnome-backgrounds
-Version:	3.38.0
-Release:	1
+Version:	40
+Release:	0.rc
 License:	GPLv2
 Group:		Graphical desktop/GNOME
 Url:		http://www.gnome.org
-Source0:	ftp://ftp.gnome.org/pub/GNOME/sources/gnome-backgrounds/%{url_ver}/%{name}-%{version}.tar.xz
+Source0:	ftp://ftp.gnome.org/pub/GNOME/sources/gnome-backgrounds/%{url_ver}/%{name}-%{version}.rc.tar.xz
 BuildArch:	noarch
 
 BuildRequires:	intltool
@@ -17,7 +17,7 @@ BuildRequires:  meson
 This module contains a set of backgrounds packaged with the GNOME desktop.
 
 %prep
-%setup -q
+%setup -q -n %{name}-%{version}.rc
 
 %build
 %meson
