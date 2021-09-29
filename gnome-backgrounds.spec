@@ -2,7 +2,7 @@
 
 Summary:	Background images for the GNOME desktop
 Name:		gnome-backgrounds
-Version:	40.1
+Version:	41.0
 Release:	1
 License:	GPLv2
 Group:		Graphical desktop/GNOME
@@ -30,4 +30,3 @@ This module contains a set of backgrounds packaged with the GNOME desktop.
 %doc NEWS README.md AUTHORS
 %{_datadir}/gnome-background-properties/
 %{_datadir}/backgrounds/*
-
