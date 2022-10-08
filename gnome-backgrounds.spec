@@ -12,7 +12,7 @@ BuildArch:	noarch
 
 BuildRequires:	intltool
 BuildRequires:  meson
-Requires: gdk-pixbuf2
+Requires: gdk-pixbuf2.0
 Requires: librsvg2
 Requires: webp-pixbuf-loader
 
