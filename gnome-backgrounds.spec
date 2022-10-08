@@ -3,7 +3,7 @@
 Summary:	Background images for the GNOME desktop
 Name:		gnome-backgrounds
 Version:	43
-Release:	1
+Release:	2
 License:	GPLv2
 Group:		Graphical desktop/GNOME
 Url:		http://www.gnome.org
@@ -12,6 +12,9 @@ BuildArch:	noarch
 
 BuildRequires:	intltool
 BuildRequires:  meson
+Requires: gdk-pixbuf2
+Requires: librsvg2
+Requires: webp-pixbuf-loader
 
 %description
 This module contains a set of backgrounds packaged with the GNOME desktop.
