@@ -24,7 +24,7 @@ Requires: jpeg-xl-gdk-pixbuf
 This module contains a set of backgrounds packaged with the GNOME desktop.
 
 %prep
-%setup -q -n %{name}-%{version}
+%autosetup -p1
 
 %build
 %meson
