@@ -1,0 +1,25 @@
+From 3c8d03e2d9a55d850bdc3eefe8db9d7ddc208e0c Mon Sep 17 00:00:00 2001
+From: David King <amigadave@amigadave.com>
+Date: Sun, 18 Aug 2024 20:16:48 +0100
+Subject: [PATCH] LCD rainbow: install background files
+
+---
+ backgrounds/meson.build | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/backgrounds/meson.build b/backgrounds/meson.build
+index 9128875..829fdb0 100644
+--- a/backgrounds/meson.build
++++ b/backgrounds/meson.build
+@@ -19,6 +19,8 @@ backgrounds = [
+   'glass-chip-l.jxl',
+   'lcd-d.jxl',
+   'lcd-l.jxl',
++  'lcd-rainbow-d.jxl',
++  'lcd-rainbow-l.jxl',
+   'map-d.svg',
+   'map-l.svg',
+   'mollnar-d.svg',
+-- 
+2.46.0
+
