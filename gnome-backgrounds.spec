@@ -11,9 +11,6 @@ Source0:	https://ftp.gnome.org/pub/GNOME/sources/gnome-backgrounds/%{url_ver}/%{
 Source1:  magic-forrest-driva.jxl
 BuildArch:	noarch
 
-# https://gitlab.gnome.org/GNOME/gnome-backgrounds/-/merge_requests/22
-Patch0:          gnome-backgrounds-47.beta-install-lcd-rainbow.patch
-
 BuildRequires:	intltool
 BuildRequires:  meson
 Requires: gdk-pixbuf2.0
