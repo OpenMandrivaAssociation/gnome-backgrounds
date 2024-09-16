@@ -8,6 +8,7 @@ License:	GPLv2
 Group:		Graphical desktop/GNOME
 Url:		https://www.gnome.org
 Source0:	https://ftp.gnome.org/pub/GNOME/sources/gnome-backgrounds/%{url_ver}/%{name}-%{version}.tar.xz
+Source1:  magic-forrest-driva.jxl
 BuildArch:	noarch
 
 # https://gitlab.gnome.org/GNOME/gnome-backgrounds/-/merge_requests/22
@@ -32,6 +33,7 @@ This module contains a set of backgrounds packaged with the GNOME desktop.
 
 %install
 %meson_install
+install -pm 0644 %{SOURCE1} %{buildroot}%{_datadir}/backgrounds/gnome
 
 %files
 %doc NEWS README.md AUTHORS
