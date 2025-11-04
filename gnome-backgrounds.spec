@@ -2,7 +2,7 @@
 
 Summary:	Background images for the GNOME desktop
 Name:		gnome-backgrounds
-Version:	49.rc
+Version:	49.0
 Release:	1
 License:	GPLv2
 Group:		Graphical desktop/GNOME
